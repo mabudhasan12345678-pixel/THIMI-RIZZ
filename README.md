@@ -1,1 +1,0 @@
-# THIMI-RIZZ
