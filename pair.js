@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*THIMI [The rising WA BOT]*`;
+            const sid = `*THIMI [The rising WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*`;
             const mg = `🛑 *Always respect to the owner of this bot* 🛑`;
             const dt = await ThimiPairWeb.sendMessage(user_jid, {
               image: {
@@ -129,4 +129,3 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
-
